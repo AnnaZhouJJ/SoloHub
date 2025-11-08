@@ -1,0 +1,78 @@
+/* Custom Global Styles for SoloHub */
+
+/* Font Families */
+.font-primary {
+  font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+}
+
+.font-secondary {
+  font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+}
+
+/* Custom Colors */
+.text-grey-200 { color: #F4F4F4; }
+.text-grey-300 { color: #E2E2E2; }
+.text-grey-400 { color: #8F8F8F; }
+.text-grey-500 { color: #696969; }
+.text-grey-700 { color: #454545; }
+.text-grey-800 { color: #0B0B0B; }
+
+.bg-grey-200 { background-color: #F4F4F4; }
+.bg-grey-300 { background-color: #E2E2E2; }
+.bg-grey-400 { background-color: #8F8F8F; }
+.bg-grey-500 { background-color: #696969; }
+.bg-grey-700 { background-color: #454545; }
+.bg-grey-800 { background-color: #0B0B0B; }
+
+/* Brand Colors */
+.text-brand-green { color: #2ADB59; }
+.text-brand-yellow { color: #FFE37D; }
+.text-brand-orange { color: #FF8F6B; }
+
+.bg-brand-green { background-color: #2ADB59; }
+.bg-brand-yellow { background-color: #FFE37D; }
+.bg-brand-orange { background-color: #FF8F6B; }
+
+/* Custom Font Sizes */
+.text-xs { font-size: 12px; }
+.text-sm { font-size: 14px; }
+.text-base { font-size: 16px; }
+.text-lg { font-size: 18px; }
+.text-xl { font-size: 20px; }
+.text-2xl { font-size: 24px; }
+.text-3xl { font-size: 30px; }
+.text-4xl { font-size: 36px; }
+.text-5xl { font-size: 48px; }
+.text-6xl { font-size: 60px; }
+.text-7xl { font-size: 72px; }
+.text-8xl { font-size: 96px; }
+.text-9xl { font-size: 128px; }
+
+/* Button Component Styles */
+.btn {
+  @apply inline-flex items-center justify-center px-6 py-3 text-base font-medium rounded-full;
+}
+
+/* Primary Button */
+.btn-primary {
+  @apply bg-grey-800 text-white hover:bg-grey-700;
+}
+
+/* Secondary Button */
+.btn-secondary {
+  @apply bg-brand-green text-grey-800 hover:bg-grey-200;
+}
+
+
+/* Button Sizes */
+.btn-sm {
+  @apply px-4 py-2 text-sm;
+}
+
+.btn-lg {
+  @apply px-8 py-4 text-lg;
+}
+
+.btn-xl {
+  @apply px-10 py-5 text-xl;
+}
