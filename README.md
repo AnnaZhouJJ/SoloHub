@@ -102,4 +102,4 @@ The design system is defined in `src/custom-styles.css` and integrated with Tail
 
 ## License
 
-© 2023 SoloHub. All rights reserved.
+© 2026 SoloHub. All rights reserved.
